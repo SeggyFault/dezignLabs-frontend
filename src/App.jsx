@@ -1,11 +1,18 @@
-import './App.css'
+import { useEffect } from 'react'
+import { animate } from 'animejs'
+import AppRoutes from "./routes"
 
 function App() {
+  useEffect(() => {
+    animate('#box', {
+      translateX: 250,
+      duration: 1000,
+      easing: 'easeInOutQuad',
+    })
+  }, [])
 
   return (
-    <>
-      <h1 className='text-9xl text-indigo-800'>Dezignlabs</h1>
-    </>
+    <AppRoutes/>
   )
 }
 
