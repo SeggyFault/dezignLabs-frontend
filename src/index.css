@@ -3,4 +3,12 @@
 
 @theme {
   --font-work-sans: "Work Sans", sans-serif;
+
+  --color-brand-primary: #7F30FE;
+  --color-brand-primary-hover: #3D28FF;
+  --color-brand-accent: #8DFF91;
+  --color-surface-default: #FFFFFF;
+  --color-surface-muted: #EBEBEC;
+  --color-text-on-dark: #FFFFFF;
+  --color-text-default: #000000;
 }
