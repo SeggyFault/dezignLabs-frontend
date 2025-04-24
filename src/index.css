@@ -12,3 +12,7 @@
   --color-text-on-dark: #FFFFFF;
   --color-text-default: #000000;
 }
+
+:root {
+  font-family: var(--font-work-sans);
+}
