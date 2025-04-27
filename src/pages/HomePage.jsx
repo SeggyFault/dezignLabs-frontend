@@ -1,4 +1,5 @@
 import OurClients from "../components/OurClients"
+import CTA from "../components/CTA"
 
 export default function HomePage() {
   return (
@@ -6,6 +7,7 @@ export default function HomePage() {
       <h1 className="text-9xl text-text-on-dark font-work-sans">Dezignlabs</h1>
       <div id="box" className="bg-red-500 w-12 h-12"></div>
       <OurClients />
+      <CTA />
     </div>
   )
 }
