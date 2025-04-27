@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5";
 export default function Navbar() {
   return (
 
-    <nav className='flex justify-around items-center text-white bg-brand-primary h-20 w-full'>
+    <nav className='flex justify-around items-center text-white bg-brand-primary h-20 w-full fixed z-1000'>
       <NavLink to="/" className="flex gap-4">
         <img src="public/images/logo.svg" alt="Dezignlabs Logo Icon" className='h-7'/>
         <img src="public/images/Dezignlabs.svg" alt="Dezignlabs Logo Text" />
