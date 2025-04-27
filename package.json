@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SeggyFault.github.io/dezignLabs-frontend", 
+  "homepage": "dezignlab.mavych.me", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
