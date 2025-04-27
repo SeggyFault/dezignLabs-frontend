@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -26,11 +31,24 @@ jobs:
       # Step 4: Build the project
       - name: Build the project
         run: npm run build
+      
+      # Setup Pages:
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
-      # Step 5: Deploy to GitHub Pages (from `dist` folder to `gh-pages` branch)
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # Upload artifacts:
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # Output directory of the build
-          publish_branch: gh-pages  # The deployment branch
+          path: './dist'
+      
+      - name:  Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+      
+        # Step 5: Deploy to GitHub Pages (from `dist` folder to `gh-pages` branch)
+      # - name: Deploy to GitHub Pages
+        #uses: peaceiris/actions-gh-pages@v3
+        #with:
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          #publish_dir: ./dist  # Output directory of the build
+          #publish_branch: gh-pages  # The deployment branch
