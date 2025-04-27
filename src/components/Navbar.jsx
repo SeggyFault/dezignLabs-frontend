@@ -7,8 +7,8 @@ export default function Navbar() {
     <nav className='bg-brand-primary h-20 fixed z-1000 w-full'>
       <div className='container mx-auto h-full flex justify-between items-center text-white'>
         <NavLink to="/" className="flex gap-4">
-        <img src="public/images/logo.svg" alt="Dezignlabs Logo Icon" className='h-7'/>
-        <img src="public/images/Dezignlabs.svg" alt="Dezignlabs Logo Text" />
+        <img src="../../public/images/Logo.svg" alt="Dezignlabs Logo Icon" className='h-7'/>
+        <img src="../../public/images/Dezignlabs.svg" alt="Dezignlabs Logo Text" />
       </NavLink>
       {/* Mobile Nav */}
       <IoMenu className='text-4xl md:hidden'/>
