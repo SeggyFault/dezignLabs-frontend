@@ -7,9 +7,19 @@ export default function EpaperPage() {
 
   return (
     <div>
+      {/*OUR EXPERTISE*/}
+      <section className="bg-brand-primary py-12 md:py-20 relative">
+        <div className="container px-4 md:px-0 mx-auto flex flex-col gap-4 md:gap-8">
+           <h2 className="text-text-on-dark uppercase text-5xl font-bold tracking-wide">Our Expertise</h2>
+           <p className="text-text-on-dark text-base font-light md:text-lg">We specialize in <span className="font-bold">creating and adapting content</span> specifically for e-paper displays, ensuring <span className="font-bold">optimal readability, sharp contrast, and seamless performance</span> within the technical limitations of the medium. Whether you need <span className="font-bold">new content or adjustments to existing assets,</span> we handle every aspect — <span className="font-bold">from pixel-perfect graphics to technical compliance</span></p>
+        </div>
+        <div className="absolute left-0 bottom-0 h-4 w-2/3 bg-brand-accent"></div>
+      </section>
+
+      {/*EXAMPLES*/}
       <section className="bg-brand-primary py-12 md:py-20">
         <div className="container px-4 md:px-0 mx-auto flex flex-col gap-4 md:gap-8">
-          <h2 className="text-text-on-dark uppercase text-5xl font-bold">Examples</h2>
+          <h2 className="text-text-on-dark uppercase text-5xl font-bold tracking-wide">Examples</h2>
           {/*Grid*/}
           <div className="grid grid-cols-12 gap-4">
             {/*Row 1*/}
