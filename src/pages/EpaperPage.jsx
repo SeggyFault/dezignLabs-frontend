@@ -7,6 +7,19 @@ export default function EpaperPage() {
 
   return (
     <div>
+      {/*HERO*/}
+      <section className="py-12 md:py-20 bg-surface-default">
+        <div className=""></div>
+        <img className="w-full h-auto" src="/images/epaper-hero.webp" alt="" />
+        <div className="container px-4 md:px-0 mx-auto">
+          <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pt-20 pb-8">Optimizing Content for Next-Gen E-Paper Displays</h2>
+          <div className="flex gap-4 flex-col md:flex-row">
+            <p className="font-bold text-base">At DezignLabs, we work at the forefront of digital innovation—partnering with Samsung to revolutionize e-paper display technology</p>
+            <p className="text-base text-gray-700">E-paper is transforming the way businesses display information, offering a high-contrast, energy-efficient alternative to traditional screens. However, designing for e-paper requires a specialized approach—and that’s where we come in</p>
+          </div>
+        </div>
+      </section>
+
       {/*OUR EXPERTISE*/}
       <section className="bg-brand-primary py-12 md:py-20 relative">
         <div className="container px-4 md:px-0 mx-auto flex flex-col gap-4 md:gap-8">
