@@ -37,37 +37,75 @@ export default function EpaperPage() {
             <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pb-8">What we do</h2>
             <ul>
               <ListItem
-                className="h-2 w-2 bg-brand-primary"
+                className="text-brand-primary"
                 title="Custom Content Creation"
                 text="Designing engaging visuals tailored for e-paper"
               />
               <ListItem
-                className="h-4 w-4 bg-brand-primary"
+                className="text-brand-primary"
                 title="Content Porting & Adaptation"
                 text="Optimizing existing content for perfect e-paper display"
               />
               <ListItem
-                className="h-4 w-4 bg-brand-primary"
+                className="text-brand-primary"
                 title="Wayfinding & Signage"
                 text="Airports, train stations, shopping centers"
               />
               <ListItem
-                className="h-4 w-4 bg-brand-primary"
+                className="text-brand-primary"
                 title="Digital Pricing & Menus"
                 text="Restaurants, QSRs, retail stores, and supermarkets"
               />
               <ListItem
-                className="h-4 w-4 bg-brand-primary"
+                className="text-brand-primary"
                 title="Information Displays"
                 text="Hotels, business centers, corporate offices"
               />
               <ListItem
-                className="h-4 w-4 bg-brand-primary"
+                className="text-brand-primary"
                 title="Advertising & Promotional Screens"
                 text="Retail promotions, in-store marketing, and product showcases"
               />
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/*INDUSTRIES WE SERVE*/}
+      <section className="pt-12 md:pt-20 bg-brand-primary">
+        <div className="container px-4 md:px-0 mx-auto flex flex-col justify-center items-center md:items-start gap-8 md:gap-16 md:flex-row">
+          <div className="mb-12">
+            <h2 className="text-text-on-dark uppercase text-5xl font-bold tracking-wide pb-8">Industries We Serve</h2>
+            <ul>
+              <ListItem
+                className="text-text-on-dark"
+                title="Hospitality"
+                text="Hotels, resorts, conference centers"
+              />
+              <ListItem
+                className="text-text-on-dark"
+                title="Airports & Transportation"
+                text="Digital wayfinding, flight information, transit schedules"
+              />
+              <ListItem
+                className="text-text-on-dark"
+                title="Retail & QSR"
+                text="Price tags, menus, promotional boards"
+              />
+              <ListItem
+                className="text-text-on-dark"
+                title="Corporate & Office Spaces"
+                text="Meeting room schedules, internal communications"
+              />
+            </ul>
+            <div className="relative mt-12">
+              <div className="absolute z-0 -left-2 bottom-2 bg-brand-accent h-[153px] w-[502px]"></div>
+              <div className="relative z-1000 bg-surface-default p-8 h-[153px] w-[502px]">
+                <p className="text-brand-primary">We ensure your e-paper content looks sharp, clear, and visually striking—bringing your digital signage to life in a way that is eco-friendly, energy-efficient, and effortlessly dynamic</p>
+              </div>
+            </div>
+          </div>
+          <img className="w-full max-w-[400px] h-auto object-contain" src="/images/industries-img.webp" alt="" />
         </div>
       </section>
 
