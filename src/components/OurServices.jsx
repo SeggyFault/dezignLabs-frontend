@@ -1,6 +1,10 @@
+import { useNavigate } from 'react-router-dom'
 import Card from "./Card"
 
 export default function OurServices() {
+  
+  const navigate = useNavigate()
+
   return (
     <section className="bg-brand-primary py-12 md:py-20">
       <div className="container px-4 md:px-0 mx-auto flex flex-col gap-4 md:gap-8">
@@ -59,6 +63,7 @@ export default function OurServices() {
               description="Development, Product design"
               image="/images/card_5.webp"
               buttonText="Learn More"
+              onClick={() => navigate('/epaper')}
             />
           </div>
         </div>
