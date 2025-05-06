@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       <Hero />
       <AboutUs />
-      <OurServices />
+      <OurServices id="our-services" />
       <OurClients />
       <CTA
         title="Interested in working with us?"

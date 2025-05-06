@@ -10,7 +10,9 @@ export default function Hero() {
       <div className="relative container mx-auto flex flex-col gap-4 h-screen md:gap-8 justify-end">
         <h1 className="uppercase text-text-on-dark text-5xl md:text-6xl">Bringing bold visions & powerful stories to life</h1>
         <p className="text-text-on-dark text-xl font-light">We create immersive experiences that keep your game in players' pockets — and on their minds</p>
-        <Button className="mx-auto ml-0">Learn More</Button>
+        <a href="#our-services">
+          <Button className="mx-auto ml-0">Learn More</Button>
+        </a>
       </div>
     </section>
   )

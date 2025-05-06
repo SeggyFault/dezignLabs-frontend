@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom'
 import Card from "./Card"
 
-export default function OurServices() {
+export default function OurServices({ id }) {
   
   const navigate = useNavigate()
 
   return (
-    <section className="bg-brand-primary py-12 md:py-20">
+    <section id={id} className="bg-brand-primary py-12 md:py-20">
       <div className="container px-4 md:px-0 mx-auto flex flex-col gap-4 md:gap-8">
         <h2 className="text-text-on-dark uppercase text-5xl font-bold">Our services</h2>
         {/*Grid*/}
