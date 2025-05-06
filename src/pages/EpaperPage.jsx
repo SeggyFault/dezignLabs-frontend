@@ -9,7 +9,7 @@ export default function EpaperPage() {
   return (
     <div>
       {/*HERO*/}
-      <section className="py-12 md:py-20 bg-surface-default">
+      <section className="py-12 md:py-20 bg-surface-default h-screen">
         <img className="w-full h-auto" src="/images/epaper-hero.webp" alt="" />
         <div className="container px-4 md:px-0 mx-auto">
           <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pt-20 pb-8">Optimizing Content for Next-Gen E-Paper Displays</h2>
