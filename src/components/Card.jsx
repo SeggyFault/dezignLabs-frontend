@@ -1,6 +1,6 @@
 import Button from "./Button"
 
-export default function Card({ title, description, image, video, buttonText }) {
+export default function Card({ title, description, image, video, buttonText, onClick }) {
   const videoId = video ? video.split("v=")[1]?.split("&")[0] : null;
   return (
     <div className="rounded-lg shadow-lg overflow-hidden">
@@ -32,7 +32,11 @@ export default function Card({ title, description, image, video, buttonText }) {
           <h3 className="text-xl font-semibold">{title}</h3>
           <p className="text-gray-700">{description}</p>
           {buttonText && (
-          <Button variant="cta" className="mx-auto ml-0">{buttonText}</Button>
+          <Button 
+            onClick={onClick}
+            variant="cta" 
+            className="mx-auto ml-0"
+          >{buttonText}</Button>
         )}
         </div>
       </div>
