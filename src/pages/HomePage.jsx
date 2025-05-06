@@ -11,7 +11,10 @@ export default function HomePage() {
       <AboutUs />
       <OurServices />
       <OurClients />
-      <CTA />
+      <CTA
+        title="Interested in working with us?"
+        buttonText="Let's Connect"
+      />
       {/*<div id="box" className="bg-red-500 w-12 h-12"></div>*/}
     </div>
   )
