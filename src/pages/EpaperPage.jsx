@@ -1,5 +1,6 @@
 import CTA from "../components/CTA"
 import { useNavigate } from 'react-router-dom'
+import ListItem from "../components/ListItem"
 
 export default function EpaperPage() {
 
@@ -9,7 +10,6 @@ export default function EpaperPage() {
     <div>
       {/*HERO*/}
       <section className="py-12 md:py-20 bg-surface-default">
-        <div className=""></div>
         <img className="w-full h-auto" src="/images/epaper-hero.webp" alt="" />
         <div className="container px-4 md:px-0 mx-auto">
           <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pt-20 pb-8">Optimizing Content for Next-Gen E-Paper Displays</h2>
@@ -27,6 +27,48 @@ export default function EpaperPage() {
            <p className="text-text-on-dark text-base font-light md:text-lg">We specialize in <span className="font-bold">creating and adapting content</span> specifically for e-paper displays, ensuring <span className="font-bold">optimal readability, sharp contrast, and seamless performance</span> within the technical limitations of the medium. Whether you need <span className="font-bold">new content or adjustments to existing assets,</span> we handle every aspect — <span className="font-bold">from pixel-perfect graphics to technical compliance</span></p>
         </div>
         <div className="absolute left-0 bottom-0 h-4 w-2/3 bg-brand-accent"></div>
+      </section>
+
+      {/*WHAT WE DO*/}
+      <section className="pt-12 md:pt-20 bg-surface-default">
+        <div className="container px-4 md:px-0 mx-auto flex flex-col justify-center items-center md:items-start gap-8 md:gap-16 md:flex-row">
+          <img className="w-full max-w-[300px] h-auto object-contain" src="/images/what-we-do-img.webp" alt="" />
+          <div className="mb-12">
+            <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pb-8">What we do</h2>
+            <ul>
+              <ListItem
+                className="h-2 w-2 bg-brand-primary"
+                title="Custom Content Creation"
+                text="Designing engaging visuals tailored for e-paper"
+              />
+              <ListItem
+                className="h-4 w-4 bg-brand-primary"
+                title="Content Porting & Adaptation"
+                text="Optimizing existing content for perfect e-paper display"
+              />
+              <ListItem
+                className="h-4 w-4 bg-brand-primary"
+                title="Wayfinding & Signage"
+                text="Airports, train stations, shopping centers"
+              />
+              <ListItem
+                className="h-4 w-4 bg-brand-primary"
+                title="Digital Pricing & Menus"
+                text="Restaurants, QSRs, retail stores, and supermarkets"
+              />
+              <ListItem
+                className="h-4 w-4 bg-brand-primary"
+                title="Information Displays"
+                text="Hotels, business centers, corporate offices"
+              />
+              <ListItem
+                className="h-4 w-4 bg-brand-primary"
+                title="Advertising & Promotional Screens"
+                text="Retail promotions, in-store marketing, and product showcases"
+              />
+            </ul>
+          </div>
+        </div>
       </section>
 
       {/*EXAMPLES*/}
