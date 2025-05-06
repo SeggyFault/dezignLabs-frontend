@@ -10,7 +10,7 @@ export default function EpaperPage() {
     <div>
       {/*HERO*/}
       <section className="py-12 md:py-20 bg-surface-default h-screen">
-        <img className="w-full h-auto" src="/images/epaper-hero.webp" alt="" />
+        <img className="w-full h-auto" src="/images/epaper-hero.webp" alt="epaper design hero image" />
         <div className="container px-4 md:px-0 mx-auto">
           <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pt-20 pb-8">Optimizing Content for Next-Gen E-Paper Displays</h2>
           <div className="flex gap-4 flex-col md:flex-row">
@@ -32,7 +32,7 @@ export default function EpaperPage() {
       {/*WHAT WE DO*/}
       <section className="pt-12 md:pt-20 bg-surface-default">
         <div className="container px-4 md:px-0 mx-auto flex flex-col justify-center items-center md:items-start gap-8 md:gap-16 md:flex-row">
-          <img className="w-full max-w-[300px] h-auto object-contain" src="/images/what-we-do-img.webp" alt="" />
+          <img className="w-full max-w-[300px] h-auto object-contain" src="/images/what-we-do-img.webp" alt="citylight image" />
           <div className="mb-12">
             <h2 className="text-brand-primary uppercase text-5xl font-bold tracking-wide pb-8">What we do</h2>
             <ul>
@@ -105,7 +105,7 @@ export default function EpaperPage() {
               </div>
             </div>
           </div>
-          <img className="w-full max-w-[400px] h-auto object-contain" src="/images/industries-img.webp" alt="" />
+          <img className="w-full max-w-[400px] h-auto object-contain" src="/images/industries-img.webp" alt="citylight with zara advertisement image" />
         </div>
       </section>
 
@@ -117,24 +117,24 @@ export default function EpaperPage() {
           <div className="grid grid-cols-12 gap-4">
             {/*Row 1*/}
             <div className="col-span-12 md:col-span-4">
-              <img className="w-full h-80 object-cover" src="/images/example-1.jpg" alt="" />
+              <img className="w-full h-80 object-cover" src="/images/example-1.jpg" alt="lidl advertisement" />
             </div>
             <div className="col-span-12 md:col-span-8">
-              <img className="w-full h-80 object-cover" src="/images/example-2.jpg" alt="" />
+              <img className="w-full h-80 object-cover" src="/images/example-2.jpg" alt="info indoor billboard with directional signs" />
             </div>
             {/*Row 2*/}
             <div className="col-span-12 md:col-span-8">
-              <img className="w-full h-100 object-cover" src="/images/example-3.jpg" alt="" />
+              <img className="w-full h-100 object-cover" src="/images/example-3.jpg" alt="airport departure info board" />
             </div>
             <div className="col-span-12 md:col-span-4">
-              <img className="w-full h-100 object-cover" src="/images/example-4.jpg" alt="" />
+              <img className="w-full h-100 object-cover" src="/images/example-4.jpg" alt="ikea advertisement" />
             </div>
             {/*Row 3*/}
             <div className="col-span-12 md:col-span-6">
-              <img className="w-full h-80 object-cover" src="/images/example-5.jpg" alt="" />
+              <img className="w-full h-80 object-cover" src="/images/example-5.jpg" alt="ikea happy valentine's adbertisment" />
             </div>
             <div className="col-span-12 md:col-span-6">
-              <img className="w-full h-80 object-cover" src="/images/example-6.jpg" alt="" />
+              <img className="w-full h-80 object-cover" src="/images/example-6.jpg" alt="aldi coming soon billboard advertisment" />
             </div>
           </div>
         </div>
