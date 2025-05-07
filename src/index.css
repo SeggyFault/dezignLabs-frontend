@@ -11,6 +11,13 @@
   --color-surface-muted: #EBEBEC;
   --color-text-on-dark: #FFFFFF;
   --color-text-default: #000000;
+
+  /* Custom animation */
+  @keyframes slideIn {
+    0%   { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0);      opacity: 1; }
+  }
+  --animate-slide-in: slideIn 0.8s ease-out forwards;
 }
 
 :root {
