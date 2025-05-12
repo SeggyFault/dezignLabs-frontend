@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import Hero from "../components/Hero"
 import AboutUs from "../components/AboutUs"
+import Values from '../components/Values'
 import OurServices from "../components/OurServices"
 import OurClients from "../components/OurClients"
 import CTA from "../components/CTA"
@@ -13,6 +14,7 @@ export default function HomePage() {
     <div>
       <Hero />
       <AboutUs />
+      <Values />
       <OurServices id="our-services" />
       <OurClients />
       <CTA
