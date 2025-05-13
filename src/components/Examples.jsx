@@ -1,7 +1,7 @@
 import { useInView } from '../hooks/useInView'
 
 export default function Examples() {
-  const [containerRef, inView] = useInView(0.3)
+  const [containerRef, inView] = useInView(0.1)
 
   const examples = [
     { src: "/images/example-1.jpg", span: "md:col-span-4", alt: "lidl advertisement",   delay: "delay-100" },
