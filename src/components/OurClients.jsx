@@ -1,7 +1,7 @@
 export default function OurClients() {
   return (
     <section className="bg-surface-muted py-12 md:py-20">
-      <div className="container mx-auto flex flex-col gap-4 md:gap-8">
+      <div className="container px-4 md:px-0 mx-auto flex flex-col gap-4 md:gap-8">
         <h2 className="uppercase text-brand-primary text-5xl font-bold">Our clients</h2>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-6 ">
           {/*Scopely*/}
