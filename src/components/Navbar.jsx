@@ -27,11 +27,6 @@ export default function Navbar() {
         <div className="absolute top-20 left-0 w-full h-screen bg-brand-primary md:hidden z-50">
           <div className="flex flex-col items-center space-y-4 py-4">
             <NavLink 
-              to="/" 
-              className="text-5xl text-text-on-dark font-medium my-10 hover:text-brand-accent"
-              onClick={() => setMenuOpen(false)}
-            >Home</NavLink>
-            <NavLink 
               to="/contacts" 
               className="text-5xl  text-text-on-dark font-medium my-10 hover:text-brand-accent"
               onClick={() => setMenuOpen(false)}
@@ -42,7 +37,6 @@ export default function Navbar() {
 
       {/* Desktop Nav */}
       <div className='hidden md:flex justify-around items-baseline gap-4'>
-        <NavLink to="/" className="hover:text-brand-accent">Home</NavLink>
         <NavLink to="/contacts" className="hover:text-brand-accent">Contacts</NavLink>
       </div>
       </div>
