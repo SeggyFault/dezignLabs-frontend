@@ -34,7 +34,7 @@ export default function Card({ title, description, image, video, buttonText, onC
           {buttonText && (
           <Button 
             onClick={onClick}
-            variant="cta" 
+            variant="primary" 
             className="mx-auto ml-0"
           >{buttonText}</Button>
         )}
