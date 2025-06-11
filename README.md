@@ -13,13 +13,11 @@ The landing page is designed to build trust and showcase Dezignlabs' mission: co
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Anime.js](https://img.shields.io/badge/Anime.js-FE5196?style=for-the-badge&logo=anime.js&logoColor=white)
 
 ## Features
 
 - Responsive and animated landing page
 - Clean and modern UI with TailwindCSS
-- Scroll-based and interactive animations powered by Anime.js
 - Separate pages for Home and Contacts
 
 ## Roadmap
